@@ -67,3 +67,12 @@ This repository contains a Laravel application using SQLite as the database.
     ./vendor/bin/pest
 
     ```
+
+6. **Custom PHP Artisan Command**
+
+-   The command below will delete the expired messages from the database.
+
+    ```bash
+    php artisan messages:delete-expired
+
+    ```
