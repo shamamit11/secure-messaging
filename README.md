@@ -60,3 +60,10 @@ This repository contains a Laravel application using SQLite as the database.
 -   Once you create a message, you will receive messageId and decryptionKey which can be used to read a message.
 
 -   This application uses SoftDeletes for the demo purpose.
+
+5. **Running Tests**
+
+    ```bash
+    ./vendor/bin/pest
+
+    ```
