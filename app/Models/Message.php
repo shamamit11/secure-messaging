@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Message extends Model
 {
     use HasFactory, SoftDeletes;
-    protected $table = 'message';
+    protected $table = 'messages';
     protected $fillable = ['text', 'recipient', 'decryption_key', 'expires_at'];
     protected $casts = [
         'expires_at' => 'datetime',
