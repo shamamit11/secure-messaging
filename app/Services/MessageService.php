@@ -2,11 +2,12 @@
 
 namespace App\Services;
 
+use App\Interfaces\MessageServiceInterface;
 use App\Models\Message;
 use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
 
-class MessageService
+class MessageService implements MessageServiceInterface
 {
     public function storeMessage(string $text, string $recipient)
     {
