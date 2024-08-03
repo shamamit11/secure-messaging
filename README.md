@@ -48,14 +48,14 @@ This repository contains a Laravel application using SQLite as the database.
 -   You can use postman to test the api endpoints.
 
 -   To create a message:
-    Endpoint: http://localhost:8000/api/message
-    Method: Post
-    Required Body Parameters: text (string), recipient (string | email)
+    Endpoint: http://localhost:8000/api/message <br>
+    Method: Post <br>
+    Required Body Parameters: text (string), recipient (string | email) <br>
 
 -   To read a message:
-    Endpoint: http://localhost:8000/api/message/read
-    Method: Post
-    Required Body Parameters: messageId (int), decryptionKey (string)
+    Endpoint: http://localhost:8000/api/message/read <br>
+    Method: Post <br>
+    Required Body Parameters: messageId (int), decryptionKey (string) <br>
 
 -   Once you create a message, you will receive messageId and decryptionKey which can be used to read a message.
 
